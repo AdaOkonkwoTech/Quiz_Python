@@ -120,3 +120,59 @@ body {
     top: 85%;
     left: 40%;
   }
+.bubbles1, .bubbles2, .bubbles3 {
+  width: 20vw;
+  height: 20vw;
+  max-width: 150px;
+  max-height: 150px;
+}
+/* ===== RESPONSIVE DESIGN ===== */
+
+/* Tablets */
+@media (max-width: 768px) {
+  main {
+    width: 90%;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+  body {
+    padding: 10px;
+  }
+
+  main {
+    width: 95%;
+    padding: 15px;
+    border-radius: 8px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  button {
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 1.3rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  .message {
+    font-size: 14px;
+  }
+}
